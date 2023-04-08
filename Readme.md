@@ -7,4 +7,5 @@ Watch this video to understand this project:
 
 ## License
 
-This project is licensed under the [MIT license](https://opensource.org/licenses/MIT).
+This project is licensed under the [MIT license](https://opensource.org/licenses/MIT).  
+The font ([Roboto](https://fonts.google.com/specimen/Roboto)) is licensed under the [Apache license 2.0](https://www.apache.org/licenses/LICENSE-2.0)
