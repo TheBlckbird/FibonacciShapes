@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibonacci Shapes</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script defer src="js/Draw.js"></script>
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+    <button id="startDrawing">Start</button>
+    <button id="stopDrawing">Stop</button><br>
+
+    <label>
+        Modulo Value:
+        <input type="number" id="moduloValue" placeholder="modulo" value="6">
+    </label><br>
+
+    <label>
+        Ignore Zeros
+        <input type="checkbox" id="ignoreZeros" checked>
+    </label><br>
+
+    <canvas height="500" width="700" id="canvas"></canvas>
+
+    <p>
+        Note: The program uses Fibonacci numbers to generate these patterns, so it will stop when the number exceeds the max safe integer value.
+    </p>
+    
+    <p>
+        Feel free to contribute to this on <a href="https://github.com/TheBlckbird/FibonacciShapes">Github</a>
+    </p>
+
+    <p>
+        <a href="http://www.youtube.com/@jacobyatsko" target="_blank">Huge thanks to Jacob Yatsko from whom I got the idea for this project. Go check out his YouTube Channel.</a><br>
+        <a href="https://youtu.be/o1eLKODSCqw">And also watch his video first before you play around with this tool to understand what's going on.</a>
+    </p>
+</body>
+</html>
