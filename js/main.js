@@ -26,12 +26,12 @@ let mainLoopId = 0;
 function startDrawing() {
     const moduloValue = document.getElementById("moduloValue").value;
     const ignoreZeros = document.getElementById("ignoreZeros").checked;
-    console.log(ignoreZeros);
+    let number1 = Number(document.getElementById("fibonacciNumber1").value);
+    let number2 = Number(document.getElementById("fibonacciNumber2").value);
+
     stopDrawing();
     draw.reset();
     let i = 0;
-    let number1 = 0;
-    let number2 = 1;
 
     let numbers = [];
 
